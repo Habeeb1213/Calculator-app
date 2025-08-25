@@ -29,7 +29,7 @@ body {
   border: 2px solid #ccc;
   border-radius: 10px;
   color: #333;
-  font-size: 2rem;
+  font-size: 2.1rem;
   padding: 10px 20px;
   text-align: right;
   margin-bottom: 25px;
@@ -55,17 +55,26 @@ body {
   user-select: none;
 }
 
-/* Clear button is orange */
-.buttons button:first-child {
-  background: #ff7f2a;
-  border-color: #ff7f2a;
-  color: white;
-  font-weight: 700;
+button:hover{
+  background-color: #ccc;
 }
 
-.buttons button:first-child:hover {
-  background: #e76b00;
-  border-color: #e76b00;
+button:active{
+  background-color: #969696;
 }
 
 
+.buttons .btn{
+  background-color: #e76b00;
+  border: none;
+  color: #fefefe;
+  font-size: 2rem;
+}
+
+.buttons .btn:hover{
+  background-color: #ffa251;
+}
+
+.buttons .btn:active{
+  background-color: #ffbc82;
+}
